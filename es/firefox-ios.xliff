@@ -7,18 +7,18 @@
     <body>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
         <source>Firefox uses your camera to scan QR codes and take photos and video.</source>
-        <target>Firefox usa tu cámara para escanear códigos QR y tomar fotos y videos.</target>
+        <target>Qwant usa tu cámara para escanear códigos QR y tomar fotos y videos.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Firefox requires Face ID to access your saved logins.</source>
-        <target>Firefox requiere Face ID para acceder a tus inicios de sesión guardados.</target>
+        <target>Qwant requiere Face ID para acceder a tus inicios de sesión guardados.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
         <source>Websites you visit may request your location.</source>
         <target>Los sitios web que visites pueden solicitar conocer tu ubicación.</target>
-        <note>file, You can obtain one at http://mozilla.org/MPL/2.0</note>
+        <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription" xml:space="preserve">
         <source>Firefox uses your microphone to record and upload audio.</source>
@@ -354,7 +354,7 @@
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Description" xml:space="preserve">
         <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
-        <target>Configura enlaces de sitios web, correos electrónicos y mensajes para que se abran automáticamente en Firefox.</target>
+        <target>Configura enlaces de sitios web, correos electrónicos y mensajes para que se abran automáticamente en Qwant.</target>
         <note>Description for small card shown that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Title" xml:space="preserve">
@@ -379,7 +379,7 @@
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Description3" xml:space="preserve">
         <source>3. Select Firefox</source>
-        <target>3. Seleccionar Firefox</target>
+        <target>3. Seleccionar Qwant</target>
         <note>Description for default browser onboarding card.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Screenshot" xml:space="preserve">
@@ -391,6 +391,31 @@
         <source>Set as Default Browser</source>
         <target>Establecer como navegador predeterminado</target>
         <note>Menu option for setting Firefox as default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Title1" xml:space="preserve">
+          <source>Make the Qwant app</source>
+          <target>Make the Qwant app</target>
+          <note>First part of the title to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Title2" xml:space="preserve">
+          <source>your default browser</source>
+          <target>your default browser</target>
+          <note>Second part of the title to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Description" xml:space="preserve">
+          <source>Set links to open automatically in Qwant!</source>
+          <target>Set links to open automatically in Qwant!</target>
+          <note>Description to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.ButtonSettings" xml:space="preserve">
+          <source>Go to Settings</source>
+          <target>Go to Settings</target>
+          <note>Button string to open settings that allows user to switch their default browser to Qwant.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.ButtonIgnore" xml:space="preserve">
+          <source>Ignore</source>
+          <target>Ignore</target>
+          <note>Button string to ignore the default browser capability.</note>
       </trans-unit>
     </body>
   </file>
@@ -492,17 +517,17 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Firefox.Account.Sync.Description" xml:space="preserve">
         <source>Bring bookmarks, history, and passwords to Firefox on this device.</source>
-        <target>Lleva marcadores, historial y contraseñas a Firefox en este dispositivo.</target>
+        <target>Lleva marcadores, historial y contraseñas a Qwant en este dispositivo.</target>
         <note>Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Firefox.Account.Sync.Title" xml:space="preserve">
         <source>Sync Firefox Between Devices</source>
-        <target>Sincroniza Firefox entre dispositivos</target>
+        <target>Sincroniza Qwant entre dispositivos</target>
         <note>Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Description" xml:space="preserve">
         <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>Utiliza cualquier aplicación de correo - no solo Correo - con Firefox.</target>
+        <target>Utiliza cualquier aplicación de correo - no solo Correo - con Qwant.</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title" xml:space="preserve">
@@ -522,7 +547,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Safe.Sync.Description" xml:space="preserve">
         <source>Protect your logins and data everywhere you use Firefox.</source>
-        <target>Protege tus credenciales y datos en cualquier lugar donde uses Firefox.</target>
+        <target>Protege tus credenciales y datos en cualquier lugar donde uses Qwant.</target>
         <note>Description for the third item in the table related to safe syncing with a firefox account</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Safe.Sync.Title" xml:space="preserve">
@@ -557,7 +582,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title.v2" xml:space="preserve">
         <source>Welcome to Firefox</source>
-        <target>Te damos la bienvenida a Firefox</target>
+        <target>Te damos la bienvenida a Qwant</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Start Browsing" xml:space="preserve">
@@ -1049,7 +1074,7 @@
       </trans-unit>
       <trans-unit id="ContextualHints.Homepage.PersonalizedHome" xml:space="preserve">
         <source>Your personalized Firefox homepage now makes it easier to pick up where you left off. Find your recent tabs, bookmarks, and search results.</source>
-        <target>El inicio personalizado de Firefox ahora hace más fácil volver al punto que se había dejado. Buscar pestañas recientes, marcadores y resultados de búsquedas.</target>
+        <target>El inicio personalizado de Qwant ahora hace más fácil volver al punto que se había dejado. Buscar pestañas recientes, marcadores y resultados de búsquedas.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about the more personalized home feature.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs" xml:space="preserve">
@@ -1078,7 +1103,7 @@
       </trans-unit>
       <trans-unit id="CoverSheet.v22.DarkMode.Description" xml:space="preserve">
         <source>For iOS 13 users, Firefox now automatically switches to a dark theme when your phone is set to Dark Mode. To change this behavior, go to Settings &gt; Theme.</source>
-        <target>Para los usuarios de iOS 13, Firefox ahora cambia automáticamente a un tema oscuro cuando tu teléfono está configurado en Modo Oscuro. Para cambiar este comportamiento, ve a Configuraciones &gt; Tema.</target>
+        <target>Para los usuarios de iOS 13, Qwant ahora cambia automáticamente a un tema oscuro cuando tu teléfono está configurado en Modo Oscuro. Para cambiar este comportamiento, ve a Configuraciones &gt; Tema.</target>
         <note>Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings.</note>
       </trans-unit>
       <trans-unit id="CoverSheet.v22.DarkMode.Title" xml:space="preserve">
@@ -1170,7 +1195,7 @@
       </trans-unit>
       <trans-unit id="Downloads.Error.Message" xml:space="preserve">
         <source>Downloads aren’t supported in Firefox yet.</source>
-        <target>Aún no se admiten descargas en Firefox.</target>
+        <target>Aún no se admiten descargas en Qwant.</target>
         <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Cancelled.LabelText" xml:space="preserve">
@@ -1245,7 +1270,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description" xml:space="preserve">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
-        <target>El dueño de %@ ha configurado su sitio web incorrectamente. Para evitar que roben tu información, Firefox no se ha conectado a este sitio web.</target>
+        <target>El dueño de %@ ha configurado su sitio web incorrectamente. Para evitar que roben tu información, Qwant no se ha conectado a este sitio web.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title" xml:space="preserve">
@@ -1280,7 +1305,7 @@
       </trans-unit>
       <trans-unit id="Firefox.HomePage.Title" xml:space="preserve">
         <source>Firefox Home Page</source>
-        <target>Página de inicio de Firefox</target>
+        <target>Página de inicio de Qwant</target>
         <note>Title for firefox about:home page in tab history list</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.CustomizeHomeButton.Title" xml:space="preserve">
@@ -1305,7 +1330,7 @@
       </trans-unit>
       <trans-unit id="FxA.AccountVerificationRequiredSurface" xml:space="preserve">
         <source>You need to verify %@. Check your email for the verification link from Firefox.</source>
-        <target>Tienes que verificar %@. Comprueba tu correo para ver si has recibido un enlace de confirmación de Firefox.</target>
+        <target>Tienes que verificar %@. Comprueba tu correo para ver si has recibido un enlace de confirmación de Qwant.</target>
         <note>Message explaining that user needs to check email for Firefox Account verfication link.</note>
       </trans-unit>
       <trans-unit id="FxA.ConnectAnotherDevice" xml:space="preserve">
@@ -1315,7 +1340,7 @@
       </trans-unit>
       <trans-unit id="FxA.FirefoxAccount" xml:space="preserve">
         <source>Firefox Account</source>
-        <target>Cuenta de Firefox</target>
+        <target>Cuenta de Qwant</target>
         <note>Settings section title for Firefox Account</note>
       </trans-unit>
       <trans-unit id="FxA.ManageAccount" xml:space="preserve">
@@ -1340,7 +1365,7 @@
       </trans-unit>
       <trans-unit id="FxA.RemoveAccountAlertMessage" xml:space="preserve">
         <source>Remove the Firefox Account associated with this device to sign in as a different user.</source>
-        <target>Elimina la Cuenta de Firefox asociada con este dispositivo para iniciar sesión como un usuario diferente.</target>
+        <target>Elimina la Cuenta de Qwant asociada con este dispositivo para iniciar sesión como un usuario diferente.</target>
         <note>Description string for alert view that gets presented when user tries to remove an account.</note>
       </trans-unit>
       <trans-unit id="FxA.RemoveAccountAlertTitle" xml:space="preserve">
@@ -1375,7 +1400,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_body" xml:space="preserve">
         <source>Firefox Sync has connected to %@</source>
-        <target>Firefox Sync se ha conectado a %@</target>
+        <target>Qwant Sync se ha conectado a %@</target>
         <note>Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_title" xml:space="preserve">
@@ -1385,7 +1410,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_body" xml:space="preserve">
         <source>This device has been successfully disconnected from Firefox Sync.</source>
-        <target>Este dispositivo se ha desconectado correctamente de Firefox Sync.</target>
+        <target>Este dispositivo se ha desconectado correctamente de Qwant Sync.</target>
         <note>Body of a notification displayed when this device has been disconnected from FxA by another device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_title" xml:space="preserve">
@@ -1395,7 +1420,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_UnknownDevice_body" xml:space="preserve">
         <source>A device has disconnected from Firefox Sync</source>
-        <target>Se ha desconectado un dispositivo de Firefox Sync</target>
+        <target>Se ha desconectado un dispositivo de Qwant Sync</target>
         <note>Body of a notification displayed when unnamed device has been disconnected from FxA.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_body" xml:space="preserve">
@@ -1485,7 +1510,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title" xml:space="preserve">
         <source>Firefox Sync</source>
-        <target>Firefox Sync</target>
+        <target>Qwant Sync</target>
         <note>Title for the empty synced tabs state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.HistoryBackButton.Title" xml:space="preserve">
@@ -1635,7 +1660,7 @@
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Content" xml:space="preserve">
         <source>Firefox will close tabs you haven’t viewed over the past month.</source>
-        <target>Firefox cerrará las pestañas que no hayas visto durante el último mes.</target>
+        <target>Qwant cerrará las pestañas que no hayas visto durante el último mes.</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string describes what happens if you elect to turn on this option.</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Title" xml:space="preserve">
@@ -1914,7 +1939,7 @@
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Description" xml:space="preserve">
         <source>Saved logins will show up here. If you saved your logins to Firefox on a different device, sign in to your Firefox Account.</source>
-        <target>Las credenciales guardadas se mostrarán aquí. Si guardaste tus credenciales en Firefox en un dispositivo diferente, conéctate a tu cuenta de Firefox.</target>
+        <target>Las credenciales guardadas se mostrarán aquí. Si guardaste tus credenciales en Qwant en un dispositivo diferente, conéctate a tu cuenta de Qwant.</target>
         <note>Label shown when there are no logins to list</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Title" xml:space="preserve">
@@ -1954,7 +1979,7 @@
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?" xml:space="preserve">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
-        <target>Parece que Firefox se cerró inesperadamente. ¿Te gustaría restaurar tus pestañas?</target>
+        <target>Parece que Qwant se cerró inesperadamente. ¿Te gustaría restaurar tus pestañas?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Mark as Read" xml:space="preserve">
@@ -2026,12 +2051,12 @@
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionStandardWithITP.Title" xml:space="preserve">
         <source>Firefox blocks cross-site trackers, social trackers, cryptominers, and fingerprinters.</source>
-        <target>Firefox bloquea los rastreadores de sitios cruzados, los rastreadores sociales, los criptomineros y los creadores de huellas digitales (fingerprinters).</target>
+        <target>Qwant bloquea los rastreadores de sitios cruzados, los rastreadores sociales, los criptomineros y los creadores de huellas digitales (fingerprinters).</target>
         <note>Description for having standard ETP protection with ITP offered in iOS14+</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionStrictWithITP.Title" xml:space="preserve">
         <source>Firefox blocks cross-site trackers, social trackers, cryptominers, fingerprinters, and tracking content.</source>
-        <target>Firefox bloquea los rastreadores de sitios cruzados, los rastreadores sociales, los criptomineros, los creadores de huellas digitales (fingerprinters) y el contenido de rastreo.</target>
+        <target>Qwant bloquea los rastreadores de sitios cruzados, los rastreadores sociales, los criptomineros, los creadores de huellas digitales (fingerprinters) y el contenido de rastreo.</target>
         <note>Description for having strict ETP protection with ITP offered in iOS14+</note>
       </trans-unit>
       <trans-unit id="Menu.History.Label" xml:space="preserve">
@@ -2141,7 +2166,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.NoTrackersBlockedTitle" xml:space="preserve">
         <source>No trackers known to Firefox were detected on this page.</source>
-        <target>No se han detectado rastreadores conocidos por Firefox en esta página.</target>
+        <target>No se han detectado rastreadores conocidos por Qwant en esta página.</target>
         <note>Message in menu when no trackers blocked.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.ProtectionSettings.Title" xml:space="preserve">
@@ -2166,7 +2191,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlocking.Description" xml:space="preserve">
         <source>Firefox is blocking parts of the page that may track your browsing.</source>
-        <target>Firefox está bloqueando partes de la página que puede que te rastreen mientras navegas.</target>
+        <target>Qwant está bloqueando partes de la página que puede que te rastreen mientras navegas.</target>
         <note>Description of the Tracking protection menu when TP is blocking parts of the page</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockingDisabled.Description" xml:space="preserve">
@@ -2357,13 +2382,13 @@
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.Title" xml:space="preserve">
         <source>What’s New in Firefox</source>
-        <target>Que hay de nuevo en Firefox</target>
+        <target>Que hay de nuevo en Qwant</target>
         <note>On the onboarding card, letting users know what's new in this version of Firefox, this is the title for the Jump Back In bullet point on the card
    The title for the new onboarding card letting users know what is new in Firefox iOS</note>
       </trans-unit>
       <trans-unit id="Oops! Firefox crashed" xml:space="preserve">
         <source>Oops! Firefox crashed</source>
-        <target>¡Vaya! Firefox se bloqueó</target>
+        <target>¡Vaya! Qwant se bloqueó</target>
         <note>Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
       <trans-unit id="Open Settings" xml:space="preserve">
@@ -2383,7 +2408,7 @@
       </trans-unit>
       <trans-unit id="OpenURL.Error.Message" xml:space="preserve">
         <source>Firefox cannot open the page because it has an invalid address.</source>
-        <target>Firefox no pudo encontrar la página porque la dirección no es válida.</target>
+        <target>Qwant no pudo encontrar la página porque la dirección no es válida.</target>
         <note>The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app.</note>
       </trans-unit>
       <trans-unit id="OpenURL.Error.Title" xml:space="preserve">
@@ -2408,7 +2433,7 @@
       </trans-unit>
       <trans-unit id="PasswordAutoFill.NoPasswordsFoundTitle" xml:space="preserve">
         <source>You don’t have any credentials synced from your Firefox Account</source>
-        <target>No tiene ninguna credencial sincronizada desde su cuenta de Firefox</target>
+        <target>No tiene ninguna credencial sincronizada desde su cuenta de Qwant</target>
         <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="PasswordAutoFill.PasswordsListTitle" xml:space="preserve">
@@ -2418,7 +2443,7 @@
       </trans-unit>
       <trans-unit id="PasswordAutoFill.SectionTitle" xml:space="preserve">
         <source>Firefox Credentials</source>
-        <target>Credenciales de Firefox</target>
+        <target>Credenciales de Qwant</target>
         <note>Title of the extension that shows firefox passwords</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessMessage" xml:space="preserve">
@@ -2428,7 +2453,7 @@
       </trans-unit>
       <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessTitle" xml:space="preserve">
         <source>Firefox would like to access your Photos</source>
-        <target>A Firefox le gustaría acceder a tus fotos</target>
+        <target>A Qwant le gustaría acceder a tus fotos</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close" xml:space="preserve">
@@ -2562,7 +2587,7 @@
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message" xml:space="preserve">
         <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
-        <target>Permite que Firefox acceda a la cámara de tu dispositivo en ‘Ajustes’ -&gt; ‘Privacidad’ -&gt; ‘Cámara’.</target>
+        <target>Permite que Qwant acceda a la cámara de tu dispositivo en ‘Ajustes’ -&gt; ‘Privacidad’ -&gt; ‘Cámara’.</target>
         <note>Text of the prompt user to setup the camera authorization.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.View.Title" xml:space="preserve">
@@ -2664,7 +2689,7 @@
       </trans-unit>
       <trans-unit id="Send a crash report so Mozilla can fix the problem?" xml:space="preserve">
         <source>Send a crash report so Mozilla can fix the problem?</source>
-        <target>¿Enviar un informe del fallo para que Mozilla resuelva el problema?</target>
+        <target>¿Enviar un informe del fallo para que Qwant resuelva el problema?</target>
         <note>Message displayed in the crash dialog above the buttons used to select when sending reports</note>
       </trans-unit>
       <trans-unit id="SendTo.Cancel.Button" xml:space="preserve">
@@ -2700,17 +2725,17 @@
       </trans-unit>
       <trans-unit id="SendTo.NoDevicesFound.Message" xml:space="preserve">
         <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
-        <target>No tienes otros dispositivos conectados a esta cuenta de Firefox que estén disponibles para sincronizarse.</target>
+        <target>No tienes otros dispositivos conectados a esta cuenta de Qwant que estén disponibles para sincronizarse.</target>
         <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Message" xml:space="preserve">
         <source>Please open Firefox, go to Settings and sign in to continue.</source>
-        <target>Abre Firefox, ve a Ajustes e inicia sesión para continuar.</target>
+        <target>Abre Qwant, ve a Ajustes e inicia sesión para continuar.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Title" xml:space="preserve">
         <source>You are not signed in to your Firefox Account.</source>
-        <target>No has iniciado sesión en tu cuenta de Firefox.</target>
+        <target>No has iniciado sesión en tu cuenta de Qwant.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.SendAction.Text" xml:space="preserve">
@@ -2720,7 +2745,7 @@
       </trans-unit>
       <trans-unit id="SendTo.SignIn.Button" xml:space="preserve">
         <source>Sign In to Firefox</source>
-        <target>Inicia sesión en Firefox</target>
+        <target>Inicia sesión en Qwant</target>
         <note>The text for the button on the Send to Device page if you are not signed in to Firefox Accounts.</note>
       </trans-unit>
       <trans-unit id="SentTab.AddToReadingListAction.Title" xml:space="preserve">
@@ -2740,7 +2765,7 @@
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.title" xml:space="preserve">
         <source>Firefox Sync</source>
-        <target>Firefox Sync</target>
+        <target>Qwant Sync</target>
         <note>Title of notification received after a spurious message from FxA has been received.</note>
       </trans-unit>
       <trans-unit id="SentTab.ViewAction.title" xml:space="preserve">
@@ -2880,7 +2905,7 @@
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Body" xml:space="preserve">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target>Firefox dejará de sincronizarse con tu cuenta, pero no eliminará la información de navegación en este dispositivo.</target>
+        <target>Qwant dejará de sincronizarse con tu cuenta, pero no eliminará la información de navegación en este dispositivo.</target>
         <note>Body of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Button" xml:space="preserve">
@@ -2986,7 +3011,7 @@
       </trans-unit>
       <trans-unit id="Settings.FxA.Title" xml:space="preserve">
         <source>Firefox Account</source>
-        <target>Cuenta de Firefox</target>
+        <target>Cuenta de Qwant</target>
         <note>Title displayed in header of the FxA settings panel.</note>
       </trans-unit>
       <trans-unit id="Settings.General.SectionName" xml:space="preserve">
@@ -2996,7 +3021,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Description" xml:space="preserve">
         <source>Choose content you see on the Firefox homepage.</source>
-        <target>Elige el contenido que ves en la página de inicio de Firefox.</target>
+        <target>Elige el contenido que ves en la página de inicio de Qwant.</target>
         <note>In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.JumpBackIn" xml:space="preserve">
@@ -3041,7 +3066,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Description" xml:space="preserve">
         <source>Choose what you see when you return to Firefox.</source>
-        <target>Elige que ver cuando regreses a Firefox.</target>
+        <target>Elige que ver cuando regreses a Qwant.</target>
         <note>In the settings menu, in the Start at Home customization options, this is text that appears below the section, describing what the section settings do.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Never" xml:space="preserve">
@@ -3056,7 +3081,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Title" xml:space="preserve">
         <source>Firefox Homepage</source>
-        <target>Página de inicio de Firefox</target>
+        <target>Página de inicio de Qwant</target>
         <note>In the settings menu, this is the title of the Firefox Homepage customization settings section</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button" xml:space="preserve">
@@ -3141,12 +3166,12 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.CustomizeTitle" xml:space="preserve">
         <source>Customize Firefox Home</source>
-        <target>Personalizar Inicio de Firefox</target>
+        <target>Personalizar Inicio de Qwant</target>
         <note>The title for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.FirefoxHome" xml:space="preserve">
         <source>Firefox Home</source>
-        <target>Inicio de Firefox</target>
+        <target>Inicio de Qwant</target>
         <note>Option in settings to show Firefox Home when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks" xml:space="preserve">
@@ -3216,7 +3241,7 @@
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status" xml:space="preserve">
         <source>When Opening Firefox</source>
-        <target>Al abrir Firefox</target>
+        <target>Al abrir Qwant</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Title" xml:space="preserve">
@@ -3256,7 +3281,7 @@
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Message" xml:space="preserve">
         <source>Mozilla strives to only collect what we need to provide and improve Firefox for everyone.</source>
-        <target>Mozilla se esfuerza para recopilar solo lo que necesita para poder ejecutar y mejorar Firefox para todos.</target>
+        <target>Qwant se esfuerza para recopilar solo lo que necesita para poder ejecutar y mejorar la navegación para todos.</target>
         <note>A short description that explains why mozilla collects usage data.</note>
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Title" xml:space="preserve">
@@ -3286,7 +3311,7 @@
       </trans-unit>
       <trans-unit id="Settings.Siri.SectionDescription" xml:space="preserve">
         <source>Use Siri shortcuts to quickly open Firefox via Siri</source>
-        <target>Utilizar los atajos de Siri para abrir Firefox rápidamente vía Siri</target>
+        <target>Utilizar los atajos de Siri para abrir Qwant rápidamente vía Siri</target>
         <note>The description that describes what siri shortcuts are</note>
       </trans-unit>
       <trans-unit id="Settings.Siri.SectionName" xml:space="preserve">
@@ -3326,7 +3351,7 @@
       </trans-unit>
       <trans-unit id="Settings.Studies.Toggle.Message" xml:space="preserve">
         <source>Firefox may install and run studies from time to time.</source>
-        <target>Firefox podría instalar y ejecutar estudios de vez en cuando.</target>
+        <target>Qwant podría instalar y ejecutar estudios de vez en cuando.</target>
         <note>A short description that explains that Mozilla is running studies</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Toggle.Off" xml:space="preserve">
@@ -3381,7 +3406,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.BlockListsHeader" xml:space="preserve">
         <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
-        <target>Puedes elegir qué lista utilizará Firefox para bloquear elementos web que puedan rastrearte mientras navegas.</target>
+        <target>Puedes elegir qué lista utilizará Qwant para bloquear elementos web que puedan rastrearte mientras navegas.</target>
         <note>Header description for tracking protection options section where Basic/Strict block list can be selected</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Info.BasicTitle" xml:space="preserve">
@@ -3566,12 +3591,12 @@
       </trans-unit>
       <trans-unit id="ShareExtension.LoadInBackgroundActionDone.Title" xml:space="preserve">
         <source>Loading in Firefox</source>
-        <target>Cargando en Firefox</target>
+        <target>Cargando en Qwant</target>
         <note>Share extension label shown after user has performed 'Load in Background' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInFirefoxAction.Title" xml:space="preserve">
         <source>Open in Firefox</source>
-        <target>Abrir en Firefox</target>
+        <target>Abrir en Qwant</target>
         <note>Action label on share extension to immediately open page in Firefox.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInPrivateModeAction.Title" xml:space="preserve">
@@ -3581,7 +3606,7 @@
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInFirefoxAction.Title" xml:space="preserve">
         <source>Search in Firefox</source>
-        <target>Buscar en Firefox</target>
+        <target>Buscar en Qwant</target>
         <note>Action label on share extension to search for the selected text in Firefox.</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions" xml:space="preserve">
@@ -3642,7 +3667,7 @@
       </trans-unit>
       <trans-unit id="Sync.NoAccount.Description" xml:space="preserve">
         <source>No account? Create one to sync Firefox between devices.</source>
-        <target>¿No tienes cuenta? Crea una para sincronizar Firefox entre dispositivos.</target>
+        <target>¿No tienes cuenta? Crea una para sincronizar Qwant entre dispositivos.</target>
         <note>String displayed on Sign In to Sync page that allows the user to create a new account.</note>
       </trans-unit>
       <trans-unit id="Sync.Syncing.Label" xml:space="preserve">
@@ -3936,12 +3961,12 @@
       </trans-unit>
       <trans-unit id="UIMenuItem.SearchWithFirefox" xml:space="preserve">
         <source>Search with Firefox</source>
-        <target>Buscar con Firefox</target>
+        <target>Buscar con Qwant</target>
         <note>Search in New Tab Text selection menu item</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect" xml:space="preserve">
         <source>Upgrade Firefox to connect</source>
-        <target>Actualizar Firefox para conectarse</target>
+        <target>Actualizar Qwant para conectarse</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Use stage servers" xml:space="preserve">
@@ -3991,7 +4016,7 @@
       </trans-unit>
       <trans-unit id="You don’t have any tabs open in Firefox on your other devices." xml:space="preserve">
         <source>You don’t have any tabs open in Firefox on your other devices.</source>
-        <target>No tienes ninguna pestaña abierta en Firefox en tus demás dispositivos.</target>
+        <target>No tienes ninguna pestaña abierta en Qwant en tus demás dispositivos.</target>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="YouTube" xml:space="preserve">
@@ -4011,7 +4036,7 @@
       </trans-unit>
       <trans-unit id="fxa.qr-scanning-view.instructions" xml:space="preserve">
         <source>Scan the QR code shown at firefox.com/pair</source>
-        <target>Escanea el código QR mostrado en firefox.com/pair</target>
+        <target>Escanea el código QR mostrado en qwant.com/pair</target>
         <note>Instructions shown on qr code scanning view</note>
       </trans-unit>
       <trans-unit id="fxa.signin.camera-signin" xml:space="preserve">
@@ -4021,17 +4046,17 @@
       </trans-unit>
       <trans-unit id="fxa.signin.create-account-pt-1" xml:space="preserve">
         <source>Sync Firefox between devices with an account.</source>
-        <target>Sincroniza Firefox entre dispositivos con una cuenta.</target>
+        <target>Sincroniza Qwant entre dispositivos con una cuenta.</target>
         <note>FxA sign in create account label.</note>
       </trans-unit>
       <trans-unit id="fxa.signin.create-account-pt-2" xml:space="preserve">
         <source>Create Firefox account.</source>
-        <target>Crear una cuenta Firefox.</target>
+        <target>Crear una cuenta Qwant.</target>
         <note>FxA sign in create account label. This will be linked to the site to create an account.</note>
       </trans-unit>
       <trans-unit id="fxa.signin.qr-link-instruction" xml:space="preserve">
         <source>On your computer open Firefox and go to firefox.com/pair</source>
-        <target>Abre Firefox en tu computador y ve a firefox.com/pair</target>
+        <target>Abre Qwant en tu computador y ve a qwant.com/pair</target>
         <note>FxA sign in view qr code instructions</note>
       </trans-unit>
       <trans-unit id="fxa.signin.ready-to-scan" xml:space="preserve">
@@ -4387,7 +4412,7 @@
       </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved." xml:space="preserve">
         <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
-        <target>Firefox no recordará tu historial ni tus cookies, pero guardará los marcadores nuevos.</target>
+        <target>Qwant no recordará tu historial ni tus cookies, pero guardará los marcadores nuevos.</target>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Learn More" xml:space="preserve">
@@ -4538,7 +4563,7 @@ Tabs</source>
       </trans-unit>
       <trans-unit id="TodayWidget.FirefoxShortcutGalleryDescription" xml:space="preserve">
         <source>Add Firefox shortcuts to your Home screen.</source>
-        <target>Añade atajos de Firefox a tu pantalla de inicio.</target>
+        <target>Añade atajos de Qwant a tu pantalla de inicio.</target>
         <note>Description for medium size widget to add Firefox Shortcut to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabelV1" xml:space="preserve">
@@ -4576,7 +4601,7 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.NewSearchButtonLabelV1" xml:space="preserve">
         <source>Search in Firefox</source>
-        <target>Buscar en Firefox</target>
+        <target>Buscar en Qwant</target>
         <note>Open New Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabelV1" xml:space="preserve">
@@ -4596,7 +4621,7 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.OpenFirefoxLabel" xml:space="preserve">
         <source>Open Firefox</source>
-        <target>Abrir Firefox</target>
+        <target>Abrir Qwant</target>
         <note>Open Firefox when there are no tabs opened in tab tray i.e. Empty State</note>
       </trans-unit>
       <trans-unit id="TodayWidget.PocketWidgetGalleryDescription" xml:space="preserve">
@@ -4606,7 +4631,7 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.PocketWidgetSubLabel" xml:space="preserve">
         <source>Firefox - Recommended by Pocket</source>
-        <target>Firefox - Recomendado por Pocket</target>
+        <target>Qwant - Recomendado por Pocket</target>
         <note>Sub label for medium size Firefox Pocket stories widge widget. Pocket is the name of another app.</note>
       </trans-unit>
       <trans-unit id="TodayWidget.PocketWidgetTitle" xml:space="preserve">
@@ -4621,7 +4646,7 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionDescription" xml:space="preserve">
         <source>Select a Firefox shortcut to add to your Home screen.</source>
-        <target>Selecciona un acceso directo de Firefox para añadirlo a tu pantalla de inicio.</target>
+        <target>Selecciona un acceso directo de Qwant para añadirlo a tu pantalla de inicio.</target>
         <note>Quick action description when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionDropDownMenu" xml:space="preserve">
@@ -4631,7 +4656,7 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionGalleryDescription" xml:space="preserve">
         <source>Add a Firefox shortcut to your Home screen. After adding the widget, touch and hold to edit it and select a different shortcut.</source>
-        <target>Agrega un acceso directo de Firefox a tu pantalla de inicio. Después de agregar el widget, selecciona y mantén pulsado para editarlo y seleccionar un acceso directo diferente.</target>
+        <target>Agrega un acceso directo de Qwant a tu pantalla de inicio. Después de agregar el widget, selecciona y mantén pulsado para editarlo y seleccionar un acceso directo diferente.</target>
         <note>Description for small size widget to add it to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsGalleryTitle" xml:space="preserve">
@@ -4641,12 +4666,12 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsGalleryTitleV2" xml:space="preserve">
         <source>Firefox Shortcuts</source>
-        <target>Accesos directos de Firefox</target>
+        <target>Accesos directos de Qwant</target>
         <note>Firefox shortcuts title when widget enters edit mode. Do not translate the word Firefox.</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsSubLabel" xml:space="preserve">
         <source>Firefox - Quick Actions</source>
-        <target>Firefox - Acciones rápidas</target>
+        <target>Qwant - Acciones rápidas</target>
         <note>Sub label for medium size quick action widget</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewGalleryDescription" xml:space="preserve">
@@ -4671,18 +4696,18 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewOpenTabsSubLabel" xml:space="preserve">
         <source>Firefox - Open Tabs</source>
-        <target>Firefox - Pestañas abiertas</target>
+        <target>Qwant - Pestañas abiertas</target>
         <note>Sub label for Top Sites widget</note>
       </trans-unit>
       <trans-unit id="TodayWidget.SearchInFirefoxTitle" xml:space="preserve">
         <source>Search in Firefox</source>
-        <target>Buscar en Firefox</target>
+        <target>Buscar en Qwant</target>
         <note>Title for small size widget which allows users to search in Firefox. Do not translate the word Firefox.</note>
       </trans-unit>
       <trans-unit id="TodayWidget.SearchInFirefoxV2" xml:space="preserve">
         <source>Search in
 Firefox</source>
-        <target>Buscar en Firefox</target>
+        <target>Buscar en Qwant</target>
         <note>Search in Firefox. Do not translate the word Firefox</note>
       </trans-unit>
       <trans-unit id="TodayWidget.SearchInPrivateTabLabelV2" xml:space="preserve">
@@ -4708,12 +4733,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesSubLabel" xml:space="preserve">
         <source>Firefox - Top Sites</source>
-        <target>Firefox - Sitios frecuentes</target>
+        <target>Qwant - Sitios frecuentes</target>
         <note>Sub label for Top Sites widget</note>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesSubLabel2" xml:space="preserve">
         <source>Firefox - Website Shortcuts</source>
-        <target>Firefox - Atajos de sitio web</target>
+        <target>Qwant - Atajos de sitio web</target>
         <note>Sub label for Shortcuts widget</note>
       </trans-unit>
       <trans-unit id="TodayWidget.ViewMore" xml:space="preserve">
@@ -4799,7 +4824,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="ctDNmu" xml:space="preserve">
         <source>Quick access to various Firefox actions</source>
-        <target>Acceso rápido a varias acciones de Firefox</target>
+        <target>Acceso rápido a varias acciones de Qwant</target>
         <note>Description of the collection of widgets</note>
       </trans-unit>
       <trans-unit id="eHmH1H" xml:space="preserve">
@@ -4861,7 +4886,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Open Firefox" xml:space="preserve">
         <source>Open Firefox</source>
-        <target>Abrir Firefox</target>
+        <target>Abrir Qwant</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>

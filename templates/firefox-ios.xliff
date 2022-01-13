@@ -14,7 +14,7 @@
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
         <source>Websites you visit may request your location.</source>
-        <note>file, You can obtain one at http://mozilla.org/MPL/2.0</note>
+        <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription" xml:space="preserve">
         <source>Firefox uses your microphone to record and upload audio.</source>
@@ -321,6 +321,26 @@
       <trans-unit id="Settings.DefaultBrowserMenuItem" xml:space="preserve">
         <source>Set as Default Browser</source>
         <note>Menu option for setting Firefox as default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Title1" xml:space="preserve">
+          <source>Make the Qwant app</source>
+          <note>First part of the title to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Title2" xml:space="preserve">
+          <source>your default browser</source>
+          <note>Second part of the title to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.Description" xml:space="preserve">
+          <source>Set links to open automatically in Qwant!</source>
+          <note>Description to help users understand that they can set Qwant as their default browser.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.ButtonSettings" xml:space="preserve">
+          <source>Go to Settings</source>
+          <note>Button string to open settings that allows user to switch their default browser to Qwant.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserOnboarding.Qwant.ButtonIgnore" xml:space="preserve">
+          <source>Ignore</source>
+          <note>Button string to ignore the default browser capability.</note>
       </trans-unit>
     </body>
   </file>
